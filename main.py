@@ -5,7 +5,6 @@ st.title("Nepali News Category Classifier")
 
 
 model = joblib.load("nepali_news_nb_model.joblib")
-st.sidebar.success("Model loaded successfully!")
 
 
 input_text = st.text_area(
